@@ -1,0 +1,26 @@
+query,score,documento
+erro integr,0.8014632033572876,consegu integr aparec erro login receb erro enquant tent integr
+erro integr,0.8007636914326086,consegu integr aparec erro onboarding receb erro enquant tent integr
+erro integr,0.7990266584270449,tent integr integraca trav duas vez receb erro enquant tent integr consegu integr aparec erro dashboard
+erro integr,0.7954675748988548,notificaco cheg atras receb erro enquant tent integr consegu integr aparec erro relatori tent integr onboarding trav duas vez
+erro integr,0.7647604590859594,carreg relatori demor receb erro enquant tent integr tent integr relatori trav duas vez consegu integr aparec erro performanc notificaco cheg atras
+suport demor,0.5572053199648035,carreg relatori demor suport ped nov mesm informaco demor
+suport demor,0.47583689454809774,relatori demor respond suport ped nov mesm informaco carreg relatori demor
+suport demor,0.45741674086305006,suport ped nov mesm informaco extrat demor respond carreg relatori demor
+suport demor,0.45685922071180385,carreg relatori demor login demor respond suport ped nov mesm informaco
+suport demor,0.4567745732419364,carreg relatori demor suport ped nov mesm informaco
+integraca api,0.6977973660754653,integraca demor respond consegu integr aparec erro api
+integraca api,0.6696779154992638,carreg relatori demor consegu emit bolet aparec erro api integraca demor respond atualizaca integraca fic simpl
+integraca api,0.6178349821129574,atend resolv rap solicitaca atualizaca api fic simpl api demor respond consegu consult sald aparec erro integraca tent consult sald api trav duas vez notificaco cheg atras
+integraca api,0.6076281209229317,consegu atualiz cadastr aparec erro integraca atend resolv rap solicitaca carreg relatori demor atualizaca api fic simpl tent atualiz cadastr api trav duas vez api demor respond demor
+integraca api,0.601580432574653,atualizaca integraca fic simpl integraca demor respond
+performanc carreg,0.7510779614454597,performanc demor respond atualizaca performanc fic simpl
+performanc carreg,0.7510779614454597,atualizaca performanc fic simpl performanc demor respond
+performanc carreg,0.7510779614454597,performanc demor respond atualizaca performanc fic simpl
+performanc carreg,0.7469576516720535,notificaco cheg atras performanc demor respond carreg relatori demor atualizaca performanc fic simpl
+performanc carreg,0.7303318326179749,atualizaca performanc fic simpl performanc demor respond carreg relatori demor atend resolv rap solicitaca
+atualizaca simpl,0.5548046850149121,notificaco cheg atras atualizaca relatori fic simpl
+atualizaca simpl,0.5548046850149121,atualizaca relatori fic simpl notificaco cheg atras
+atualizaca simpl,0.5154148496311451,relatori demor respond atualizaca relatori fic simpl
+atualizaca simpl,0.5114661802445192,atend resolv rap solicitaca atualizaca notificaco fic simpl
+atualizaca simpl,0.5107827859715699,notificaco cheg atras atualizaca cadastr fic simpl

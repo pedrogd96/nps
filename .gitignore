@@ -215,20 +215,6 @@ __marimo__/
 models/*
 !models/.gitkeep
 
-# Ignora tudo dentro de processed
-data/processed/**
-
-# Mantém apenas as pastas
-!data/processed/
-!data/processed/ner/
-!data/processed/preprocessors/
-!data/processed/vectorizers/
-
-# Mantém apenas os .gitkeep
-!data/processed/ner/.gitkeep
-!data/processed/preprocessors/.gitkeep
-!data/processed/vectorizers/.gitkeep
-
 # Generated Graphs
 data/graphs/*
 !data/graphs/.gitkeep
