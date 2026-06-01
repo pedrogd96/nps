@@ -22,4 +22,4 @@ RUN mkdir -p /app/logs /app/models/artifacts
 EXPOSE 5000
 
 # Executa como módulo (ESSENCIAL)
-CMD ["python", "-m", "src.api.app"]
+CMD ["python", "-m", "src.api.api"]

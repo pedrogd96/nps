@@ -34,5 +34,5 @@ def build_data():
     df = load_dataset()
     df["comentario"] = (df["comentario"].apply(preprocess_text))
     df = df[df["comentario"] != ""]
-    save_dataset(df, "nps_training.csv")
+    save_dataset(df, "data/processed", "nps_training.csv")
     return df

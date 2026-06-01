@@ -15,5 +15,5 @@ def lemmatize_text(text):
 def lemmatize_comments():
     df = load_dataset()
     df["comentario_lemma"] = (df["comentario"].apply(lemmatize_text))
-    save_dataset(df, "lemmatization.csv")
+    save_dataset(df, "data/processed/preprocessors", "lemmatization.csv")
     return df

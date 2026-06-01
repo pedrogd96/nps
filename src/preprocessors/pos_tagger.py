@@ -13,5 +13,5 @@ def extract_pos(text):
 def pos_tag_comments():
     df = load_dataset()
     df["pos_tags"] = (df["comentario"].apply(extract_pos))
-    save_dataset(df, "pos_tagging.csv")
+    save_dataset(df, "data/processed/preprocessors", "pos_tagging.csv")
     return df

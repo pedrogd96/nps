@@ -9,8 +9,8 @@ def load_dataset():
     return load_data(config["data"]["path"])
 
 
-def save_dataset(df: pd.DataFrame, filename: str):
-    PROCESSED_DATA = Path("data/processed/preprocessors")
+def save_dataset(df: pd.DataFrame, path: str, filename: str):
+    PROCESSED_DATA = Path(path)
     output_path = PROCESSED_DATA / filename
     df.to_csv(output_path, index=False)
     print(f"Arquivo salvo: {output_path}")

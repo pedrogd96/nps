@@ -9,5 +9,5 @@ def tokenize_comments():
         lambda text: word_tokenize(text, language="portuguese")
     )
 
-    save_dataset(df, "tokenization.csv")
+    save_dataset(df, "data/processed/preprocessors", "tokenization.csv")
     return df

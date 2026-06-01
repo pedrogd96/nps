@@ -26,5 +26,5 @@ def remove_stopwords(text):
 def remove_stopwords_comments():
     df = load_dataset()
     df["comentario_sem_stopwords"] = (df["comentario"].apply(remove_stopwords))
-    save_dataset(df, "stopwords_removed.csv")
+    save_dataset(df, "data/processed/preprocessors", "stopwords_removed.csv")
     return df

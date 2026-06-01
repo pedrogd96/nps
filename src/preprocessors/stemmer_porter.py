@@ -17,5 +17,5 @@ def stem_text(text):
 def stem_porter_comments():
     df = load_dataset()
     df["comentario_stem_porter"] = (df["comentario"].astype(str).apply(stem_text))
-    save_dataset(df, "stemming_porter.csv")
+    save_dataset(df, "data/processed/preprocessors", "stemming_porter.csv")
     return df

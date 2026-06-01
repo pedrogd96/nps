@@ -17,5 +17,5 @@ def stem_text(text):
 def stem_snowball_comments():
     df = load_dataset()
     df["comentario_stem_snowball"] = (df["comentario"].astype(str).apply(stem_text))
-    save_dataset(df, "stemming_snowball.csv")
+    save_dataset(df, "data/processed/preprocessors", "stemming_snowball.csv")
     return df

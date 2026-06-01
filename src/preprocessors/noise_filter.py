@@ -50,5 +50,5 @@ def filter_noise_comments():
         )
     )
 
-    save_dataset(df, "noise_filter.csv")
+    save_dataset(df, "data/processed/preprocessors", "noise_filter.csv")
     return df

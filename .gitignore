@@ -221,6 +221,7 @@ data/graphs/*
 
 # MLFlow Local Artifacts
 mlruns/
+mlflow.db
 
 # OS Files
 .DS_Store

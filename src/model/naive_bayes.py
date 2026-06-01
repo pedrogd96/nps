@@ -26,7 +26,7 @@ def train():
 
     encoder = LabelEncoder()
     y = encoder.fit_transform(y)
-    X_vectorized, vectorizer = train_tfidf_bigram(X, fit=True)
+    X_vectorized, vectorizer = train_tfidf_bigram(X)
     X_train, X_test, y_train, y_test = train_test_split(X_vectorized, y, test_size=0.2, stratify=y, random_state=RANDOM_STATE)
 
     mlflow.set_experiment("nps_responsavel_classifier")

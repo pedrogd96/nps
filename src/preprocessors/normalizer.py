@@ -14,5 +14,5 @@ def normalize_text(text):
 def normalize_comments():
     df = load_dataset()
     df["comentario_normalizado"] = (df["comentario"].apply(normalize_text))
-    save_dataset(df, "normalized.csv")
+    save_dataset(df, "data/processed/preprocessors", "normalized.csv")
     return df
